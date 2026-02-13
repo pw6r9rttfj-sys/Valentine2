@@ -287,7 +287,7 @@ const fetchData = () => {
               .getElementById(customData)
               .setAttribute("src", data[customData]);
           } else {
-            document.getElementById(customData).innerText = data[customData];
+            document.getElementById(customData).innerHTML = data[customData];
           }
         }
       });
